@@ -1,0 +1,347 @@
+.cover-img {
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+.cover-image {
+    max-width: 90%;
+}
+
+.reader-container img {
+    max-width: 100%;
+}
+
+a.sidenav-menu-holder.cover-img > .sidenav-menu {
+    display: block;
+}
+
+.sidebar-nav .book-info {
+    color: #aaa;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.sidebar-nav .book-info .info + .info {
+    margin-left: 10px;
+}
+
+#myTabContent .section-name {
+    display: inline-block;
+}
+
+#myTabContent a:hover .section-name {
+    text-decoration: underline;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+img.mfp-img {
+    max-height: 100vh !important;
+}
+
+.copyright > .info > span {
+    display: inline-block;
+    text-indent: 0;
+}
+
+.copyright > .info > .copyleft {
+    transform: rotate(180deg);
+    font-size: 17px;
+    text-indent: 5px;
+    line-height: 44px;
+}
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    bottom: 10px;
+    right: 10px;
+}
+
+.back-to-top:hover {
+    opacity: 1 !important;
+}
+
+.back-to-top > img {
+    width: 74px;
+    height: 77px;
+}
+
+@media(max-width: 992px) {
+    .back-to-top {
+        display: none !important;
+    }
+}
+
+.informaltable .right {
+    text-align: right;
+}
+
+.informaltable .left {
+    padding: 5px 10px;
+}
+
+.informaltable .center {
+    text-align: center;
+}
+
+.informaltable .light {
+    color: #bbb;
+}
+
+.informaltable .nowrap {
+    white-space: nowrap;
+}
+
+.informaltable .capit {
+    text-transform: capitalize;
+}
+
+.informaltable table.book-list tbody td p,
+.informaltable table.book-list thead th p {
+    margin: 0;
+}
+
+.informaltable table.book-list tbody tr:nth-child(even) td,
+.tablesorter-default .tablesorter-filter-row {
+    background-color: rgba(69, 142, 209, 0.04);
+}
+
+.informaltable table.book-list tbody tr:hover td {
+    background-color: rgba(69, 142, 209, 0.2);
+}
+
+.informaltable .book-list a,
+.informaltable .book-list a:hover {
+    color: #333;
+}
+
+.informaltable .book-list a[href^="books"]:after {
+    font-family: FontAwesome;
+    font-size: 14px;
+    content: "\f08e";
+    color: #bbb;
+    display: inline-block;
+    padding-left: 7px;
+}
+
+.tablesorter-default .header,
+.tablesorter-default .tablesorter-header {
+    padding: 4px 20px 4px 10px;
+	cursor: pointer;
+	background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAAP///////yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.tablesorter-default .headerSortUp,
+.tablesorter-default .tablesorter-headerSortUp,
+.tablesorter-default .tablesorter-headerAsc {
+	background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAAP///////yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7);
+}
+.tablesorter-default .headerSortDown,
+.tablesorter-default .tablesorter-headerSortDown,
+.tablesorter-default .tablesorter-headerDesc {
+	background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAAP///////yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7);
+}
+.tablesorter-default thead .sorter-false {
+	background-image: none;
+	cursor: default;
+}
+
+/* table processing indicator */
+.tablesorter-default .tablesorter-processing {
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	background-image: url('data:image/gif;base64,R0lGODlhFAAUAKEAAO7u7lpaWgAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQBCgACACwAAAAAFAAUAAACQZRvoIDtu1wLQUAlqKTVxqwhXIiBnDg6Y4eyx4lKW5XK7wrLeK3vbq8J2W4T4e1nMhpWrZCTt3xKZ8kgsggdJmUFACH5BAEKAAIALAcAAAALAAcAAAIUVB6ii7jajgCAuUmtovxtXnmdUAAAIfkEAQoAAgAsDQACAAcACwAAAhRUIpmHy/3gUVQAQO9NetuugCFWAAAh+QQBCgACACwNAAcABwALAAACE5QVcZjKbVo6ck2AF95m5/6BSwEAIfkEAQoAAgAsBwANAAsABwAAAhOUH3kr6QaAcSrGWe1VQl+mMUIBACH5BAEKAAIALAIADQALAAcAAAIUlICmh7ncTAgqijkruDiv7n2YUAAAIfkEAQoAAgAsAAAHAAcACwAAAhQUIGmHyedehIoqFXLKfPOAaZdWAAAh+QQFCgACACwAAAIABwALAAACFJQFcJiXb15zLYRl7cla8OtlGGgUADs=') !important;
+}
+
+/* filter widget */
+.tablesorter-default .tablesorter-filter-row td {
+    padding: 5px;
+    border: 1px solid #ECECEC;
+	line-height: normal;
+	text-align: center; /* center the input */
+	-webkit-transition: line-height 0.1s ease;
+	-moz-transition: line-height 0.1s ease;
+	-o-transition: line-height 0.1s ease;
+	transition: line-height 0.1s ease;
+}
+/* optional disabled input styling */
+.tablesorter-default .tablesorter-filter-row .disabled {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	cursor: not-allowed;
+}
+
+/* filters */
+.tablesorter-default input.tablesorter-filter,
+.tablesorter-default select.tablesorter-filter,
+.book-list select, .book-list input[type=text],
+.tablesorter-pager select {
+	width: 98%;
+	height: auto;
+	margin: 0;
+	padding: 4px;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	color: #333;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: height 0.1s ease;
+	-moz-transition: height 0.1s ease;
+	-o-transition: height 0.1s ease;
+	transition: height 0.1s ease;
+}
+/* rows hidden by filtering (needed for child rows) */
+.tablesorter .filtered {
+	display: none;
+}
+
+/* ajax error row */
+.tablesorter .tablesorter-errorRow td {
+	text-align: center;
+	cursor: pointer;
+	background-color: #e6bf99;
+}
+
+.tablesorter-default .tablesorter-filter-row .disabled {
+    display: none;
+}
+
+.book-list thead tr th:nth-child(2) {
+    width: 45%;
+}
+
+.book-list thead tr th:nth-child(4) {
+    width: 18%;
+}
+
+.book-list thead tr td:nth-child(5) {
+    min-width: 150px;
+}
+
+.book-list thead tr td:nth-child(5) select {
+    width: 35px;
+}
+
+.book-list thead tr td:nth-child(5) div {
+    display: inline-block;
+    width: 100px;
+}
+
+.book-list thead tr td:nth-child(5) input {
+    width: 100%;
+    border-left: 0;
+}
+
+.book-list thead tr td select {
+    text-transform: capitalize;
+    line-height: normal;
+}
+
+.ui-widget {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.ui-widget-header,
+.ui-widget-content {
+    color: #333;
+}
+
+.ui-datepicker select.ui-datepicker-month, 
+.ui-datepicker select.ui-datepicker-year {
+    padding: 0 4px;
+}
+
+.ui-datepicker .ui-datepicker-prev, 
+.ui-datepicker .ui-datepicker-next {
+    margin: 2px;
+}
+
+.book-list input.form-control, 
+.book-list input[type=text], 
+.book-list select, 
+.book-list select.form-control,
+.tablesorter .tablesorter-filter-row td {
+    font-size: 14px;
+}
+
+.tablesorter-pager {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.tablesorter-pager > span {
+    vertical-align: middle;
+}
+
+.tablesorter-pager .btn {
+    min-height: 0;
+    vertical-align: baseline;
+    padding: 8px 16px;
+}
+
+.tablesorter-pager select {
+    width: 50px;
+    padding: 2px 4px 1px;
+    border: 0;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.tablesorter-pager .reset {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: #456F9E;
+    margin-left: 15px;
+}
+
+hr.divider {
+    margin: 0;
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#main-wrapper h5 {
+    line-height: 1.5;
+}
+
+#main-wrapper .informaltable {
+    margin-bottom: 0;
+}
+
+.sidebar-nav .sidenav-menu-holder.back-btn {
+    padding: 0;
+}
